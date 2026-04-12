@@ -2,3 +2,6 @@ __pycache__/
 .DS_Store
 
 translation_en_kn/
+data/
+images/
+generator_model.pth
