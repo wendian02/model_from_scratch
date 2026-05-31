@@ -46,4 +46,4 @@ if __name__ == '__main__':
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     x = x.type(torch.FloatTensor).to(device)
     model = Swin().to(device)
-    print(model(x).shape)  # 加这行，期望输出 torch.Size([1, 5])
+    print(model(x).shape) 
